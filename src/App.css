@@ -40,10 +40,20 @@
 .todo-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #d2fefe;
 }
 
 .todo-item p {
   color: #888;
   text-decoration: line-through;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  background-color: #61dafb;
 }
